@@ -75,7 +75,7 @@ cd Gemail-Hack
 python gemailhack.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 echo -e "$red"
-read -p "Wanna Back To Main Menu [ Y / n ] : " check2
+read -p "Wanna Back To Main Menu [Y] : " check2
 echo -e "$nc"
 if [ $check2 = "Y" ]; then
 cd .. && bash SocialBox.sh
